@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    background-color: #fafafa;
+}
+
+.header {
+    margin: 60px 0;
+    text-align: center;
+
+    font-family: 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 114%;
+    color: #202020;
+}
+
+.userBox {
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #202020;
+}
+
+.userName {
+
+    font-family: 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #202020;
+}
+
+.userDelete {
+    cursor: pointer;
+    padding: 7px 15px;
+    background-color: #fff;
+    color: #202020;
+    border: 1px solid #202020;
+    transition: all 0.2s;
+}
+
+.userDelete:hover {
+    background-color: #202020;
+    color: #fff;
+    border: 1px solid #fff;
+}
